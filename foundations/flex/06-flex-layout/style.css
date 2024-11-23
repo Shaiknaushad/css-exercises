@@ -24,3 +24,121 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/*  solution */
+*{
+  box-sizing: border-box;
+}
+body{
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margins */
+      display: flex; /* Enable Flexbox */
+      flex-direction: column;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  padding: 8px;
+  align-items: center;
+}
+
+.header .left-links{
+  display:flex;
+  gap:20px;
+  justify-content: space-between;
+  margin-right: auto;
+}
+
+.header .left-links li{
+  flex:1;
+
+}
+
+.header .right-links{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  
+}
+
+.header .right-links li{
+  flex:1;
+  
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.content img{
+  display:flex;
+  justify-self: center;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  
+}
+
+.buttons button{
+  padding: 10px;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  padding: 8px;
+  align-items: center;
+}
+
+.footer .left-links{
+  display:flex;
+  gap:20px;
+  justify-content: space-around;
+  margin-right: auto;
+}
+
+.footer .left-links li{
+  flex:1;
+
+}
+
+.footer .right-links{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  
+}
+
+.footer .right-links li{
+  flex:1;
+
+}
+
+.footer{
+  background-color: #eeeeee;
+  padding:15px 15px 5px 5px;
+  justify-content: center;
+}
+
+a{
+  color: #666;
+  text-decoration: none;
+  text-align: center;
+}
